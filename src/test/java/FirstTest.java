@@ -10,6 +10,6 @@ public class FirstTest {
 
     @Test
     void conflict(){
-        Assertions.assertTrue(true);
+        Assertions.assertFalse(true);
     }
 }
